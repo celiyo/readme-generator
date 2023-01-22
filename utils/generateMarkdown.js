@@ -1,3 +1,16 @@
+// function to get the badge of the selected license
+function getLicenseBadge(license) {
+  const badges = {
+    "Apache License 2.0":
+      "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+    "MIT License":
+      "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+    "GNU GPL License 2.0":
+      "[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)",
+  };
+  return badges[license];
+}
+
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}

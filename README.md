@@ -6,6 +6,8 @@
 
 This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
 
+[Video](https://user-images.githubusercontent.com/96136050/213940405-519c38d5-945d-4e3f-b0cf-9e71c6e946e3.mp4)
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -47,3 +49,4 @@ npm run test
 ## Questions
 
 For any questions or concerns about this repo, please open an issue or contact me via email at riana.tysson@gmail.com. More information about my work can be found at [celiyo](https://github.com/celiyo).
+

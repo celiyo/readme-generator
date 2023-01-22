@@ -21,6 +21,8 @@ ${getLicenseBadge(data.license)}
 
 ${data.description}
 
+[Video](https://user-images.githubusercontent.com/96136050/213940405-519c38d5-945d-4e3f-b0cf-9e71c6e946e3.mp4)
+
 ## Table of Contents
 
 - [Installation](#installation)
